@@ -18,10 +18,15 @@ Wrapped with hyphens or square brackets
 **-->** or **-[h:HIRED]->**
 
 Direction is specified with < or >
-(p1)-[:HIRED]->(p2) or (p1)<-[:HIRED]-(p2)
-(p2) Aliases or references such that later in the query you can access those references
+<br>
+**(p1)-[:HIRED]->(p2) or (p1)<-[:HIRED]-(p2)**
+<br>
+**(p2)** Aliases or references such that later in the query you can access those references
+<br>
 Eg. In match statement maybe want to use person we found and add additional propoerties
 
 Relationships also have properties
 <br>
--[:HIRED {type:'fulltime'})->
+**-[:HIRED {type:'fulltime'})->**
+
+## Basic Create and Query
